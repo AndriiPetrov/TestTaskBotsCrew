@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic');
+
+body{
+    font-family: "Open Sans";
+    margin: 0;
+    padding: 0;
+    max-width: 1600px;
+    /*   */
+}
+/*Global */
+.container{
+    /* padding-left: 215px;
+    padding-right: 215px; */
+    width: 73.125%;
+    margin: auto;
+}
+
+/* Header */
+header{
+    background: url("img/header/header-img.png") no-repeat;
+    /* background-image: url("img/section1/food.png"); */
+    color:  white;
+    height: 628px;
+    /* padding: 0; */
+}
+.container h3{
+    padding: 0;
+    margin: 0;
+    padding-top: 30px;
+    font-size: 21px;
+    font-family: "Montserrat ";
+    float: left;
+}
+.container img{
+    padding-top: 30px;
+    margin: 0 10px;
+    float:right;
+}
+
+.container h1{
+    padding-top: 135px;
+    clear: both;
+}
+/* header-img */
+
+/* position: absolute;
+width: 1600px;
+height: 628px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(0deg, rgba(47, 128, 237, 0.5), rgba(47, 128, 237, 0.5)), url(karina-carvalho-87364.jpg); */
+
+
+
