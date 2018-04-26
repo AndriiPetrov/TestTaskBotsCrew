@@ -9,10 +9,13 @@ body{
 }
 /*Global */
 .container{
-    /* padding-left: 215px;
-    padding-right: 215px; */
-    width: 73.125%;
-    margin: auto;
+    /* position: relative; */
+    /* left: 215px; */
+    /* right: 215px; */
+    height: 628px;
+    /* width: 73.125%; */
+    /* margin: auto; */
+    /* position: relative; */
 }
 
 /* Header */
@@ -20,26 +23,90 @@ header{
     background: url("img/header/header-img.png") no-repeat;
     /* background-image: url("img/section1/food.png"); */
     color:  white;
-    height: 628px;
+    max-width: 100%;
+    min-height: 628px;
+    /* max-height: 628px; */
     /* padding: 0; */
 }
-.container h3{
-    padding: 0;
-    margin: 0;
-    padding-top: 30px;
+.container .test{
+    /* position: relative;
+    top: 15px;
+    left: 215px; */
+    margin: 15px 0 0 215px;
+    max-width:209px;
+    height: 50px;
     font-size: 21px;
-    font-family: "Montserrat ";
-    float: left;
+    line-height: 26px;
+    font-family: "Montserrat";
+    font-weight: 500;;
+    /* float: left; */
+    /* padding-top: 15px; */
+    display: inline-flex;
+    align-items: center;
+    /* float: left; */
 }
-.container img{
-    padding-top: 30px;
-    margin: 0 10px;
+.container .test p{
+    margin: 0;
+}
+
+.container img.tw{
+    /* position: relative;
+    right: 215px;
+    top: 30px; */
+    margin: 30px 215px 0 0;
     float:right;
 }
 
-.container h1{
-    padding-top: 135px;
+.container img.fa{
+    /* position: relative;
+    right: 259px;
+    top: 30px; */
+    margin: 30px 20px 0 0;
+    float:right;
+}
+
+.container p{
     clear: both;
+    margin: 135px 0px 50px 215px;
+    padding: 0;
+    /* display: inline-flex;
+    justify-self:; */
+    /* position: relative; */
+    /* left: 215px;
+    top: 200px; */
+    /* margin-top: 200px;
+    margin-left: 215px; */
+    font-family: "Open Sans";
+    width: 800px;
+    height: 110px;
+    font-size: 44px;
+    line-height: 66px;
+    text-align: left;
+    font-weight: 400; /* Regular */
+    letter-spacing: 1.6px;
+}
+.container p span{
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+
+.container .button1{
+    margin: 0px 0 200px 215px;
+    width: 282px;
+    height: 68px;
+    border-radius: 144px;
+    border-width: 0;
+    background-color: #ffffff;
+
+    padding: 24px;
+    font-style: 400px;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 1.6px;
+    color: #2F80ED;
+
 }
 /* header-img */
 
