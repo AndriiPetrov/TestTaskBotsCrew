@@ -28,13 +28,13 @@ header{
     /* max-height: 628px; */
     /* padding: 0; */
 }
-.container .test{
+.test{
     /* position: relative;
     top: 15px;
     left: 215px; */
     margin: 15px 0 0 215px;
     max-width:209px;
-    height: 50px;
+    max-height: 50px;
     font-size: 21px;
     line-height: 26px;
     font-family: "Montserrat";
@@ -45,11 +45,11 @@ header{
     align-items: center;
     /* float: left; */
 }
-.container .test p{
+.test p{
     margin: 0;
 }
 
-.container img.tw{
+img.tw{
     /* position: relative;
     right: 215px;
     top: 30px; */
@@ -57,7 +57,7 @@ header{
     float:right;
 }
 
-.container img.fa{
+img.fa{
     /* position: relative;
     right: 259px;
     top: 30px; */
@@ -65,7 +65,7 @@ header{
     float:right;
 }
 
-.container p{
+.heading{
     clear: both;
     margin: 135px 0px 50px 215px;
     padding: 0;
@@ -85,13 +85,13 @@ header{
     font-weight: 400; /* Regular */
     letter-spacing: 1.6px;
 }
-.container p span{
+.heading span{
     font-weight: 300;
     margin: 0;
     padding: 0;
 }
 
-.container .button1{
+.button1{
     margin: 0px 0 200px 215px;
     width: 282px;
     height: 68px;
@@ -108,15 +108,98 @@ header{
     color: #2F80ED;
 
 }
-/* header-img */
 
-/* position: absolute;
-width: 1600px;
-height: 628px;
-left: 0px;
-top: 0px;
+/* Section 1 ------------------------- */
+.section1{
+    background-color: #ffffff;
+    color: #333333;
+    width: 1600px;
+    height: 592px;
+}
+.section1 h1{
+    margin: 80px 0px 50px 218px;
+    padding: 0;
+    font-family: "Open Sans";
+    width: 1070px;
+    height: 126px;
+    font-size: 44px;
+    line-height: 66px;
+    text-align: left;
+    font-weight: 400; /* Regular */
+    letter-spacing: 1.6px;
+}
+.section1 h1 span{
+    font-weight: 300; /* Light */
+    margin: 0;
+    padding: 0;
+}
 
-background: linear-gradient(0deg, rgba(47, 128, 237, 0.5), rgba(47, 128, 237, 0.5)), url(karina-carvalho-87364.jpg); */
+/* Boxes------ */
+/* Box1 */
+.section1 .box1{
+    margin: 0 41px 0 218px;
+    float: left;
+}
+
+/* Box2 */
+.section1 .box2{
+    margin: 0 41px 0 0px;
+    float: left;
+}
+/* Box3 */
+.section1 .box3{
+    margin: 0 0 0 0;
+    float: left;
+}
+/* For all boxes */
+.test2{
+    font-size: 0;   
+}
+
+.article{
+    width: 357px;
+    height: 86px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+/*Section 2 -------------------------- */
+
+.section2{
+    background: linear-gradient(to right, #2F80ED, #17345c);
+    max-height: 1030px;
+    max-width: 1600px;
+}
+
+/* article */
+article{
+    max-width: 620px;
+    max-height: 424px;
+    float: left;
+}
+article h1{
+    margin: 133px 0px 0px 215px;
+    padding: 0;
+    font-family: "Open Sans";
+    width: 620px;
+    height: 126px;
+    font-size: 44px;
+    line-height: 66px;
+    text-align: left;
+    font-weight: 400; /* Regular */
+    letter-spacing: 1.6px;
+}
+.section2 h1 span{
+    font-weight: 300; /* Light */
+    margin: 0;
+    padding: 0;
+}
+
+
+
 
 
 
