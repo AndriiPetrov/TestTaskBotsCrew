@@ -8,22 +8,13 @@ body{
     /*   */
 }
 /*Global */
-.container{
-    /* position: relative; */
-    /* left: 215px; */
-    /* right: 215px; */
-    height: 628px;
-    /* width: 73.125%; */
-    /* margin: auto; */
-    /* position: relative; */
-}
 
 /* Header */
 header{
     background: url("img/header/header-img.png") no-repeat;
     /* background-image: url("img/section1/food.png"); */
     color:  white;
-    max-width: 100%;
+    /* max-width: 100%; */
     min-height: 628px;
     /* max-height: 628px; */
     /* padding: 0; */
@@ -33,17 +24,17 @@ header{
     top: 15px;
     left: 215px; */
     margin: 15px 0 0 215px;
-    max-width:209px;
-    max-height: 50px;
+    min-width:209px;
+    min-height: 50px;
     font-size: 21px;
     line-height: 26px;
     font-family: "Montserrat";
-    font-weight: 500;;
+    font-weight: 500; /*Medium */
     /* float: left; */
     /* padding-top: 15px; */
     display: inline-flex;
     align-items: center;
-    /* float: left; */
+    float: left;
 }
 .test p{
     margin: 0;
@@ -64,9 +55,13 @@ img.fa{
     margin: 30px 20px 0 0;
     float:right;
 }
-
+.fix{
+    clear:both;
+    margin: 0;
+    padding: 0;
+}
 .heading{
-    clear: both;
+    /* clear: both; */
     margin: 135px 0px 50px 215px;
     padding: 0;
     /* display: inline-flex;
@@ -77,8 +72,8 @@ img.fa{
     /* margin-top: 200px;
     margin-left: 215px; */
     font-family: "Open Sans";
-    width: 800px;
-    height: 110px;
+    max-width: 800px;
+    min-height: 110px;
     font-size: 44px;
     line-height: 66px;
     text-align: left;
@@ -92,9 +87,9 @@ img.fa{
 }
 
 .button1{
-    margin: 0px 0 200px 215px;
-    width: 282px;
-    height: 68px;
+    margin: 0px 0 0px 215px;
+    min-width: 282px;
+    min-height: 68px;
     border-radius: 144px;
     border-width: 0;
     background-color: #ffffff;
@@ -113,15 +108,15 @@ img.fa{
 .section1{
     background-color: #ffffff;
     color: #333333;
-    width: 1600px;
-    height: 592px;
+    max-width: 1600px;
+    min-height: 592px;
 }
 .section1 h1{
     margin: 80px 0px 50px 218px;
     padding: 0;
     font-family: "Open Sans";
-    width: 1070px;
-    height: 126px;
+    max-width: 1070px;
+    min-height: 126px;
     font-size: 44px;
     line-height: 66px;
     text-align: left;
@@ -157,8 +152,8 @@ img.fa{
 }
 
 .article{
-    width: 357px;
-    height: 86px;
+    min-width: 357px;
+    min-height: 86px;
     font-family: "Open Sans";
     font-weight: 400;
     font-size: 16px;
@@ -170,36 +165,428 @@ img.fa{
 
 .section2{
     background: linear-gradient(to right, #2F80ED, #17345c);
-    max-height: 1030px;
+    min-height: 1030px;
     max-width: 1600px;
+    color: #ffffff;
 }
 
 /* article */
 article{
     max-width: 620px;
-    max-height: 424px;
+    min-height: 424px;
     float: left;
 }
 article h1{
     margin: 133px 0px 0px 215px;
     padding: 0;
     font-family: "Open Sans";
-    width: 620px;
-    height: 126px;
+    max-width: 620px;
+    min-height: 126px;
     font-size: 44px;
     line-height: 66px;
     text-align: left;
     font-weight: 400; /* Regular */
     letter-spacing: 1.6px;
 }
-.section2 h1 span{
+article h1 span{
     font-weight: 300; /* Light */
     margin: 0;
     padding: 0;
 }
+.sometext{
+    max-width: 600px;
+    min-height: 160px;
+    margin: 20px 0 50px 215px;
+}
+/* Chat*/
+.chat1{
+    width: 350px;
+    height: 544px;
+    float:right;
+    margin: 73px 218px 73px 197px;
+}
+.chat-friend1{
+    height:233px;
+}
+.messages1{
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;    
+    border-radius: 50%;
+    margin: 143px 10px 0 10px;
+    float: left;
 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.s{
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #2F80ED;
+}
+.chat-message1{
+    font-size: 0;
+}
+.user-photo1{
+    width:145px;
+    height: 40px;
+    border-radius: 1000px;
+    transform: rotate(360deg);
+    background: rgba(0, 0, 0, 0.25);
+    
+    /* font-style:oblique; */
+    
+    margin-top: 20px;
+    /* display: inline-flex;
+    align-items: center; */
+    float: right;
+}
+.textmes1{
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: left;
+    padding: 10px 20px;
+}
+/*Mes2 */
+.chat-friend2{
+    height: 186px;
+}
+.messages2{
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;    
+    border-radius: 50%;
+    margin: 96px 10px 0 10px;
+    float: left;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chat-message2{
+    width: 260px;
+    height: 116px;
+    background-color: #ffffff;
+    border-radius: 5px 5px 5px 0;
+    margin-top: 10px;
+    float: left;
+}
+.mes2{
+    color: #333333;
+    font-family: "Open Sans";
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 300;
+    text-align: left;
+    padding: 10px;
+}
+.user-photo2{
+    width: 80px;
+    height: 30px;
+    float: right;
+    margin-top: 30px;
+    text-align: right;
+}
+.prof2{
+    float: right;
+}
+.textmes2{
+    width: 40px;
+    height: 20px;
+    border-radius: 50px;
+    background-color:#e0e0e0;
+    margin-top: 5px;
+    /* display: inline-flex; */
+    display: flex;
+    justify-content: center;
+}
+.dot1{
+    width: 4px;
+    height: 4px;
+    background:rgba(0, 0, 0, 0.5);
+    margin: 8px 4px 8px 10px;
+}
+.dot2{
+    width: 4px;
+    height: 4px;
+    background: rgba(0, 0, 0, 0.3);
+    margin: 8px 4px 8px 0;
+}
+.dot3{
+    width: 4px;
+    height: 4px;
+    background: rgba(0, 0, 0, 0.1);
+    margin: 8px 10px 8px 0;
+}
+/*----------------*/
+/*subjects*/
+.subjects{
+    width: 350px;
+    height: 125px;
+}
+.chatshop{
+    height: 95px;
+    width: 80px;
+    margin: 30px 62px 0 0;
+    float:left;
+}
+.circle1{
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 100px;
+    margin-left: 10px
+}
+.circle1 img{
+    margin: 12px;
+}
+.shop1{
+    width: 80px;
+    height: 25px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    color: white;
+    margin-top: 10px;
+}
+.chatnightclub{
+    width: 76px;
+    height: 95px;
+    margin: 30px 72px 0 0;
+    float: left;
+}
+.circle2{
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 100px;
+    margin-left: 8px
+}
+.circle2 img{
+    margin: 12px;
+}
+.nightclub1{
+    width: 76px;
+    height: 25px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+}
+.chatfood{
+    width: 60px;
+    height: 95px;
+    margin: 30px 0 0 0;
+    float: left;
+}
+.circle3{
+    width: 60px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 100px;
+}
+.circle3 img{
+    margin: 12px;
+}
+.food1{
+    width: 43px;
+    height: 25px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 10px 8.5px 0 8.5px;
+}
 
+/*--------------------*/
+hr{
+    clear: both;
+    max-width: 1170px;
+    min-height: 1px;
+    margin: 0 215px;
+}
 
+/* Footer */
 
+.leftside{
+    min-height: 207px;
+    min-width: 240px;
+    margin: 54px 0 78px 215px;
+    float: left;
+}
+.leftside .testb2{
+    max-width:209px;
+    min-height: 50px;
+    font-size: 21px;
+    line-height: 26px;
+    font-family: "Montserrat";
+    font-weight: 500; /*Medium */
+    /* float: left; */
+    /* padding-top: 15px; */
+    display: inline-flex;
+    align-items: center;
+}
+.leftside .copyright{
+    min-width: 240px;
+    min-height: 25px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 300;
+    text-align: left;
+    opacity: 0.7;
+    margin-top: 132px;
+}
+/*Rightside*/
+.nav1{
+    min-width: 146px;
+    min-height: 193px;
+    float:right;
+    margin: 68px 215px 0 0;
+}
+.nav1 a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 300;
+    /* text-align: right; */
+    opacity: 0.7;
+    color: #ffffff;
+}
+.nav1 a.firstchild{
+    font-weight: 400;
+    min-width: 102px;
+    min-height: 25px;
+}
+.nav1 ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: right;
+    /* position: absolute; */
+}
+/* .nav1 ul li{
+    margin: 0;
+    padding: 0;
+} */
+.nav1 ul li:nth-child(1){
+    /* font-weight: 400;
+    width: 102px;
+    height: 25px; */
+    margin-bottom: 17px;
+    /* text-align: right; */
+}
+.nav1 ul li:nth-child(2){  
+    min-width: 102px;
+    min-height: 25px;
+    margin-bottom: 4px;
+}
+.nav1 ul li:nth-child(3){
+    min-width: 146px;
+    min-height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.nav1 ul li:nth-child(4){
+    min-width: 102px;
+    min-height: 25px;
+    margin: 5px 0 17px 0;
+}
 
+.nav1 ul li:nth-last-child(1){
+    min-width: 102px;
+    min-height: 25px;
+}
+/* Nav2 */
+.nav2{
+    float: right;
+    margin: 68px 50px 0 0;
+    min-width: 240px;
+    min-height: 193px;
+}
+.nav2 a{
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 300;
+    /* text-align: right; */
+    opacity: 0.7;
+    color: #ffffff;
+}
+.nav2 a.firstchild{
+    font-weight: 400;
+}
+.nav2 ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: right;
+    /* position: absolute; */
+}
+.nav2 ul li{
+    margin-bottom: 17px;
+    padding: 0;
+    width: 240px;
+    height: 25px;
+}
+.nav2 ul li:last-child{
+    margin-bottom: 0;
+}
+
+@media(max-width: 1024px){
+    .box1, .box2, .box3 {
+        float: none;
+        display: block;
+        margin: 0;
+    }
+    .section1{
+        min-height: 1000px;
+    }
+    .section1 h1{
+        margin-top: 20px;
+    }
+
+    .section1 .box2{
+        margin-left: 215px;
+    }
+    .section1 .box3{
+        margin-left: 215px;
+    }
+    .section2{
+        min-height: 2000px
+    }
+}
+
+@media(max-width: 425px){
+    .test, img.tw, img.fa, .heading,
+     .box1, .box2, .box3,
+    article, .chat, .leftside, .copyright,
+    .nav1, .nav2, {
+        float: none;
+        text-align: center;
+        /* margin-left: 0; */
+        
+    }
+    .heading,img.tw, img.fa, .button1, {
+        margin: 0;
+    }
+    header{
+        min-height: 1000px;
+    }
+    .section1 {
+        min-height: 1300px;
+    }
+}
