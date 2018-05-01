@@ -5,25 +5,36 @@ body{
     margin: 0;
     padding: 0;
     max-width: 1600px;
-    /*   */
+}
+p{
+    margin: 0;
+    padding: 0;
 }
 /*Global */
 
 /* Header */
+
 header{
+    /* position: absolute; */
+    /* display: block; */
     background: url("img/header/header-img.png") no-repeat;
-    /* background-image: url("img/section1/food.png"); */
     color:  white;
-    /* max-width: 100%; */
+    background-size: cover;
     min-height: 628px;
-    /* max-height: 628px; */
-    /* padding: 0; */
+    /* height: 100%; */
+    /* padding-top: 15px;; */
+    overflow: hidden;
+    /* clear:both; */
+}
+.container1{
+    max-width: 1170px;
+    min-height: 413px;
+    margin: 15px 215px 0px 215px;
+    /* position: absolute; */
+    padding: 0;
 }
 .test{
-    /* position: relative;
-    top: 15px;
-    left: 215px; */
-    margin: 15px 0 0 215px;
+    /* margin: 15px 0 0 215px; */
     min-width:209px;
     min-height: 50px;
     font-size: 21px;
@@ -44,7 +55,7 @@ img.tw{
     /* position: relative;
     right: 215px;
     top: 30px; */
-    margin: 30px 215px 0 0;
+    margin: 15px 0px 0 0;
     float:right;
 }
 
@@ -52,7 +63,7 @@ img.fa{
     /* position: relative;
     right: 259px;
     top: 30px; */
-    margin: 30px 20px 0 0;
+    margin: 15px 20px 0 0;
     float:right;
 }
 .fix{
@@ -62,7 +73,7 @@ img.fa{
 }
 .heading{
     /* clear: both; */
-    margin: 135px 0px 50px 215px;
+    margin: 135px 0px 50px 0px;
     padding: 0;
     /* display: inline-flex;
     justify-self:; */
@@ -87,7 +98,7 @@ img.fa{
 }
 
 .button1{
-    margin: 0px 0 0px 215px;
+    /* margin: 0px 0 0px 215px; */
     min-width: 282px;
     min-height: 68px;
     border-radius: 144px;
@@ -107,12 +118,27 @@ img.fa{
 /* Section 1 ------------------------- */
 .section1{
     background-color: #ffffff;
+    /* background-size: cover; */
     color: #333333;
     max-width: 1600px;
     min-height: 592px;
+    /* height: 100%; */
+    /* padding-top: 80px; */
+    /* padding-bottom: 80px; */
+    /* overflow: hidden; */
+}
+.container2{
+    /* padding-top: 80px; */
+    max-width: 1153px;
+    min-height: 432px;
+    margin: 80px 229px 0px 218px;
+    overflow: hidden;
+    /* position: absolute; */
+    padding: 0;
 }
 .section1 h1{
-    margin: 80px 0px 50px 218px;
+    margin-top: 0px;
+    margin-bottom: 50px;
     padding: 0;
     font-family: "Open Sans";
     max-width: 1070px;
@@ -132,7 +158,7 @@ img.fa{
 /* Boxes------ */
 /* Box1 */
 .section1 .box1{
-    margin: 0 41px 0 218px;
+    margin: 0 41px 0 0px;
     float: left;
 }
 
@@ -144,7 +170,8 @@ img.fa{
 /* Box3 */
 .section1 .box3{
     margin: 0 0 0 0;
-    float: left;
+    /* padding: 0; */
+    float:left ;
 }
 /* For all boxes */
 .test2{
@@ -166,13 +193,15 @@ img.fa{
 .section2{
     background: linear-gradient(to right, #2F80ED, #17345c);
     min-height: 1030px;
+    /* background-size: cover; */
     max-width: 1600px;
     color: #ffffff;
+    overflow: hidden;
 }
 
 /* article */
 article{
-    max-width: 620px;
+    max-width: 835px;
     min-height: 424px;
     float: left;
 }
@@ -198,11 +227,14 @@ article h1 span{
     min-height: 160px;
     margin: 20px 0 50px 215px;
 }
+.button2{
+    margin-left: 215px;
+}
 /* Chat*/
 .chat1{
-    width: 350px;
-    height: 544px;
-    float:right;
+    max-width: 350px;
+    min-height: 544px;
+    float:left;
     margin: 73px 218px 73px 197px;
 }
 .chat-friend1{
@@ -417,6 +449,7 @@ hr{
     max-width: 1170px;
     min-height: 1px;
     margin: 0 215px;
+    color: rgba(255, 255, 255, 0.2);
 }
 
 /* Footer */
@@ -448,6 +481,7 @@ hr{
     text-align: left;
     opacity: 0.7;
     margin-top: 132px;
+    color: rgba(255, 255, 255, 0.7);
 }
 /*Rightside*/
 .nav1{
@@ -455,6 +489,7 @@ hr{
     min-height: 193px;
     float:right;
     margin: 68px 215px 0 0;
+    color: rgba(255, 255, 255, 0.7);
 }
 .nav1 a{
     text-decoration: none;
@@ -546,7 +581,7 @@ hr{
     margin-bottom: 0;
 }
 
-@media(max-width: 1024px){
+/* @media(max-width: 1024px){
     .box1, .box2, .box3 {
         float: none;
         display: block;
@@ -568,25 +603,15 @@ hr{
     .section2{
         min-height: 2000px
     }
-}
+} */
 
 @media(max-width: 425px){
-    .test, img.tw, img.fa, .heading,
-     .box1, .box2, .box3,
-    article, .chat, .leftside, .copyright,
-    .nav1, .nav2, {
-        float: none;
-        text-align: center;
-        /* margin-left: 0; */
-        
-    }
-    .heading,img.tw, img.fa, .button1, {
-        margin: 0;
-    }
-    header{
-        min-height: 1000px;
-    }
-    .section1 {
-        min-height: 1300px;
+    
+    .container1, .container2, 
+    article h1, .sometext, .button2, .chat1, .chatshop, .chatnightclub,
+     hr, .leftside, .nav1, .nav2
+     {
+        margin-left: 15px;
+        margin-right: 15px;
     }
 }
